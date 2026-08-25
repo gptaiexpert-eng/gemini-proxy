@@ -50,7 +50,7 @@ app.post("/gemini", async (req, res) => {
       systemInstruction,
       generationConfig,
       safetySettings,
-      model = "gemini-3.7-flash"
+      model = "gemini-3.6-flash"
     } = req.body;
 
     if (!contents || !Array.isArray(contents)) {
